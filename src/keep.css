@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Allura&family=Montserrat&display=swap');
+html,body{
+    overflow-x: hidden;
+}
+body{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+    background-image: url(../src/images/9_King_Mackerel-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nut{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/nut.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#fish{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/9_King_Mackerel-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#milk{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/milk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#egg{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/egg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#meat{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/meat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 50%; */
+}
+
+
+#protein-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#protein-container{
+    /* border: 1px solid; */
+    height: 500px;
+    width: 300px;
+    background-color: rgb(243, 231, 231);
+    margin-bottom: 10px;
+}
+#Parent-div{
+    /* background-color: aqua; */
+    width: 100%;
+    margin: auto;
+    /* padding: 40px; */
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+     width: 200px; 
+    height: 50px;
+    border: none;
+    margin-top: 5px; 
+    /* background-image: url(../src/navbar-image.jpg); */
+    background-size: cover;
+    border-radius: 10px;
+    /* font-family: 'Allura', cursive; */
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(133, 134, 133);
+
+}
+
+button:hover{
+    opacity: 50%;
+}
+
+li{
+    font-family: 'Aladin', cursive;
+    font-size: 15px;
+    padding: 5px;
+}
+
+ul{
+    padding: 0;
+    
+}
+
+
+h1{
+    font-family: 'Allura';
+    margin: 0;
+    padding: 0;
+}
+
+button::first-letter{
+    color: red;
+}
+
+
+
+
+#Cassava{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/cassava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#yam{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/yam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#potatoes{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/Potatoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#maize{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/maize.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#himalaya{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/himalayasalt.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#zinc{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/zinc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#sulfur{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/Sulfur-Powder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#potassium{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/potassium-chloride.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#palmoil{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/palmoil.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#butter{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/butter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#Gnutoil{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/Gnutoil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#glee{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/ghee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#folate{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/folate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#vitaminD{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/vitaminD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#iron{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/iron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#copper{
+    width: 300px;
+    height: 300px;
+    background-image: url(../src/images/copper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#test{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+#modal-modal-title{
+    color: red;
+}
+
+#modal-modal-description{
+    color: red;
+}
+
+#modal-box{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+}
+
+@media screen and (max-width:900px) {
+    #protein-div{
+       margin: auto;
+    }
+
+    #protein-container{
+        /* border: 1px solid; */
+        height: 500px;
+        width: 300px;
+        background-color: rgb(243, 231, 231);
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
